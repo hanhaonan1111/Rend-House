@@ -1,0 +1,20 @@
+.root {
+  background-color: #edeefa;
+  height: 618px;
+
+  :global {
+    .nav {
+      top: 10px !important;
+
+      .iconfont {
+        color: #3fc28c;
+      }
+    }
+
+    .list {
+      height: 540px;
+      overflow: scroll;
+      margin-top: 40px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.root {
+  padding-top: 45px;
+
+
+  :global {
+
+    .nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+      z-index: 1000;
+      background-color: #f5f6f8;
+      font-size: 15px;
+
+    }
+
+    .List {
+      width: 100%;
+      height: 100vh;
+    }
+
+  }
+
+}
+
+
+

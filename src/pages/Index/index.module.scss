@@ -1,0 +1,158 @@
+.root {
+
+  :global {
+    padding-bottom: 50px;
+
+    .swiper {
+      height: 212px;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      user-select: none;
+
+      .img {
+        width: 100%;
+      }
+    }
+
+    .nav {
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      background-color: #f9f9f9;
+
+      img {
+        width: 48px;
+      }
+
+      h2 {
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
+
+    .group {
+      background-color: #f6f5f6;
+      overflow: hidden;
+      padding: 0 10px;
+
+      .group-title {
+        position: relative;
+        margin: 15px 0 15px 10px;
+        font-size: 15px;
+
+        .more {
+          color: #787d82;
+          position: absolute;
+          right: 0;
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+
+
+      .group-item {
+        background-color: #fff;
+        margin: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 200px;
+
+        & > div {
+          border: 5px solid #f6f5f6;
+          background-color: #fff;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          width: 50%;
+
+          .desc {
+            margin: 0 20px;
+
+            .title {
+              font-weight: bold;
+              font-size: 13px;
+              margin-bottom: 5px;
+            }
+
+            .info {
+              font-size: 12px;
+              color: #999;
+            }
+          }
+        }
+
+        img {
+          width: 55px;
+        }
+      }
+    }
+
+    .news {
+      padding: 10px;
+      background-color: #f6f5f6;
+      overflow: hidden;
+
+      .group-title {
+        margin: 10px 0 5px 10px;
+        font-size: 15px;
+      }
+
+      .news-item {
+        padding: 15px 10px 15px 0;
+
+        .imgwrap {
+          background-color: white;
+          border-bottom: 3px solid #e5e5e5;
+          display: flex;
+          height: 90px;
+
+          img {
+            width: 90%;
+            height: 90%;
+          }
+
+          .img {
+            height: 90px;
+            width: 200px;
+          }
+
+
+          .desc {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+            padding-left: 12px;
+
+            .title {
+              margin-bottom: 15px;
+              font-size: 16px;
+              font-weight: 700;
+            }
+
+            .from {
+              padding-right: 10px;
+              width: 100%;
+              color: #9c9fa1;
+              font-size: 12px;
+              display: flex;
+              justify-content: space-between;
+            }
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+}

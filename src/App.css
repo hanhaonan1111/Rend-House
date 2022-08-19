@@ -1,0 +1,14 @@
+.tabbar {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.iconfont {
+    font-size: 20px !important;
+}
+
+.adm-tab-bar-item-active {
+    color: rgb(33, 185, 122) !important;
+}
